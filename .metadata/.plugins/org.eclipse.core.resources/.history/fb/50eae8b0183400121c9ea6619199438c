@@ -1,0 +1,17 @@
+package model;
+
+import java.util.ArrayList;
+
+/**
+ * 
+ * @author AndrewHuang
+ */
+public class DocumentModel {
+	private final ArrayList<String> document;
+	
+	public DocumentModel() { 
+		this.document = new ArrayList<String>();
+	}
+	
+	
+}

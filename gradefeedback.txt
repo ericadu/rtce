@@ -1,0 +1,20 @@
+Group: ericadu-connieh-kahuang
+Design doc, team contract (max 9): 8
+Gui sketch, demo, code design (max 10): 10
+Design overview + state diagrams (max 7): 5
+Protocol (max 7): 7
+Message format (max 7): 7
+Code design/specs (max 5): 3
+Code design/testing strategy (max 5): 3
+Testing (max 5): 5
+implementation/networking (max 6): 6
+implementation/GUI (max 5): 5
+implementation/realtime responsiveness  (max 4): 4
+implementation/persistence while server running (max 5): 5
+implementation/multiple doc (max 5): 0
+implementation/multiple users (max 5): 5
+implementation/concurrency (max 10): 5
+Total (max 95): 78
+Feedback/documents: Manual tests need to be described in more detail in order to serve as sufficient replacements for automated tests. Design overview could use some more detail. Code and comments are a bit messy.
+Feedback/running the software: Various twitches in the multiple users/concurrent case. Possible to get the two editors out of sync, yielding ArrayIndexOutOfBoundsException-s. Cursors behave oddly. Otherwise good.
+

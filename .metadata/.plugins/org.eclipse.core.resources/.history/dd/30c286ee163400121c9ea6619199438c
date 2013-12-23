@@ -1,0 +1,10 @@
+package model;
+
+/**
+ * Specs for DocumentModel
+ * @author AndrewHuang
+ *
+ */
+public class DocumentModel {
+
+}

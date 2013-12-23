@@ -1,0 +1,35 @@
+package model;
+
+import java.util.ArrayList;
+
+/**
+ * Rep Invariant: all lines contain at most maxChar characters.
+ * EDIT ::== INSERT | DELETE | ENTER
+ *  
+ * @author AndrewHuang
+ */
+public class DocumentModel {
+	private final ArrayList<String> document;
+	private final int maxChar = 26; //Subject to change
+	
+	public DocumentModel() { 
+		this.document = new ArrayList<String>();
+	}
+	public void insert(int line, String text) {
+		//TODO: Fill in method
+		checkRep();
+	}
+	public void delete(int line, int pos) {
+		//TODO: Fill in method
+		synchronized (document.get(line)) {
+			
+		}
+		checkRep();
+	}
+	
+	public void checkRep(int line) throws RuntimeException {
+		if (document.get(line).length() > this.maxChar) {
+			throw new RuntimeException("Too many characters in one line.");
+		}
+	}
+}

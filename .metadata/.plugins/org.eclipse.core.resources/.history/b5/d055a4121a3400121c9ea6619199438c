@@ -1,0 +1,25 @@
+package model;
+
+import java.util.ArrayList;
+
+/**
+ * Rep Invariant: all lines contain at most maxChar characters.
+ * @author AndrewHuang
+ */
+public class DocumentModel {
+	private final ArrayList<String> document;
+	private final int maxChar = 26;
+	
+	public DocumentModel() { 
+		this.document = new ArrayList<String>();
+	}
+	/**
+	 * An enter is an insertion of 
+	 * @param line
+	 * @param text
+	 */
+	public void insert(int line, String text) {
+	}
+	public void delete(int line, int pos) {
+	}
+}
